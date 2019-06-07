@@ -1,0 +1,336 @@
+/*Start Main Roles*/
+
+body{
+	background-color: #f4f4f4;
+	font-size: 16px;
+}
+
+span.astrixs{
+	font-size: 25px;
+	position: absolute;
+    top: 6px;
+    right: 22px;
+    color: #c30e0e;
+}
+
+.main-ast .astrixs{
+	right: 25px
+}
+
+h1{
+	margin: 25px;
+	font-size: 55px;
+	font-weight: bold;
+	color: #666
+}
+
+.nice-message{
+	background-color: #fff;
+	margin: 10px 0;
+	border-color: #fff;
+	border-left: 5px solid #f00;
+	
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/*End Main Roles*/
+
+/*Start Navbar*/
+
+.nav-upper{
+	padding: 5px;
+	background-color: #fff
+}
+
+.btn-custom{
+	border: 1px solid #ccc;
+	padding: 1px 8px
+}
+
+.dropdown-toggle:after{
+	vertical-align: 1px;
+}
+
+.img-user{
+	border-radius: 50%;
+	width: 33px;
+	height: 33px;
+}
+
+.navbar-dark .navbar-brand{
+	font-size: 1em;
+	color: rgba(255,255,255,.5);
+	padding-right: .5rem;
+    padding-left: .5rem;
+    margin: 0;
+}
+
+.navbar{
+	padding: 0;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar .navbar-nav .nav-item:hover,
+.navbar .navbar-nav .nav-item.dropdown .dropdown-item:hover{
+	background-color: #3498db;
+	color: #fff;
+}
+
+.dropdown li a{
+	color: #FFF
+}
+
+/*End Navbar*/
+
+.item-box{
+	position: relative;
+	border: 1px solid #ccc;
+}
+
+.item-box .price-tag{
+	padding: 0px 11px;
+    position: absolute;
+    background-color: #b4b4b4;
+    top: 12px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+/*Start Login Page*/
+
+.loginPage form,
+.the-errors{
+	margin: 40px auto;
+	max-width: 380px
+}
+
+.input-container{
+	position: relative;
+}
+
+.loginPage input{
+	margin-bottom: 10px
+}
+
+span.astrixs {
+    font-size: 20px;
+    position: absolute;
+    top: 6px;
+    right: 13px;
+    color: #c30e0e;
+}
+
+h1{
+	color: #c0c0c0
+}
+
+h1 span{
+	cursor: pointer;
+}
+
+.loginPage .selected{
+	color: #822020
+}
+
+form.signup{
+	display: none;
+}
+
+.msg{
+	padding: 7px;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 10px;
+	color: #919191
+}
+
+.the-errors .error{
+	border-left: 5px solid #cd6858
+}
+
+.successMsg{
+	border-left: 5px solid #218838
+}
+
+/*End Login Page*/
+
+/*Start Profile*/
+
+.card{
+	background-color: #008dde;
+	margin-bottom: 20px
+}
+
+.card-header{
+	color: #fff;
+}
+
+.card-body{
+	background-color: #fff
+}
+
+.block{
+	margin-top: 25px
+}
+
+.information{
+	margin-top: 20px
+}
+
+.information ul{
+	margin: 0;
+	padding: 0
+}
+
+.information ul li{
+	padding: 10px
+}
+
+.information ul li:nth-child(odd){
+	background-color: #EEE
+}
+
+.information ul li span{
+	display: inline-block;
+	width: 120px
+}
+
+.information .btn{
+	border: 1px solid #ccc;
+	margin-top: 15px
+}
+
+.item-box .card-body .date{
+	float: right;
+}
+
+.item-box .approve-status{
+	background-color: #b85a5a;
+	position: absolute;
+	top: 40px;
+	color: #fff;
+	padding: 3px 5px
+}
+
+.item-box p{
+	height: 40px;
+	max-height: 44px
+}
+
+/*End Profile*/
+
+/*Start Add Ads*/
+
+.info h2{
+	padding: 10px;
+	margin: 0
+}
+
+.info p{
+	padding: 10px;
+}
+
+.info ul li{
+	padding: 10px
+}
+
+.info ul li:nth-child(odd){
+	background-color: #EEE;
+}
+
+.info span{
+	display: inline-block;
+	width: 120px
+}
+
+/*End Add Ads*/
+
+/*Start Item*/
+
+.img-ads{
+	max-width: 100%
+}
+
+.itemTags a{
+	display: inline-block;
+	background-color: #e2e2e2;
+	color: #666;
+	padding: 2px 8px;
+	margin-right: 5px;
+	border-radius: 5px
+}
+
+.custom-hr{
+	border-top: 1px solid #c9c9c9
+}
+
+.add-comment textarea{
+	display: block;
+	width: 500px;
+	height: 120px;
+	margin-bottom: 15px
+}
+
+
+
+/*End Item*/
+
+/*Start Comment*/
+
+.comment-box{
+	margin-bottom: 20px
+}
+
+.comment-box .img-com{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+
+.comment-box .lead{
+	background-color: #EEE;
+    padding: 6px;
+    position: relative;
+    margin-top: 15px
+}
+
+.comment-box .lead:before{
+	content: '';
+    position: absolute;
+    top: 7px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #eee transparent transparent;
+    left: -20px;
+}
+
+/*End Comment*/
+
+/*Start Footer*/
+footer{
+    position: fixed;
+    padding: 5px;
+    color: #fff;
+    background: #343a40;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+footer strong{
+    color: #FB7F7F
+}
+
+footer strong a{
+    color: inherit
+}
+
+
+footer strong a:hover{
+    color: #007bff
+}
+/*End Footer*/
